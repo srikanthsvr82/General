@@ -1,0 +1,27 @@
+.ots-program-forms {
+    position: relative;
+    h2 {
+        margin-top: 0;
+    }
+    .showSaving {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        .changesSaved {
+            font-size: 24px;
+            color: green;
+            opacity: 0.01;
+            transition: opacity 400ms ease-in;
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.control-label {
+    font-weight: bold;
+    &--block {
+        display: block;
+    }
+}
